@@ -29,7 +29,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.1.0</version>
+                <version>3.9.16</version>
                 <configuration>
                     <archive>
                         <manifest>
@@ -43,8 +43,9 @@
     <distributionManagement>
         <repository>
             <id>nexus-releases</id> <!-- Match this ID with the settings.xml -->
-            <url>http://3.16.25.109:8081/repository/maven-psa-private/</url>
+            <url> http://13.63.129.86:8081/repository/maven-java-packages/ url>
         </repository>
     </distributionManagement>
+
 </project>
 
